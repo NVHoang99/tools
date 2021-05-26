@@ -1,0 +1,126 @@
+.container-left, .container-right {
+    font-size: 1.5rem;
+}
+
+.container-left, .container-right {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+form, .form-group {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.form-group label {
+    min-width: 100px;
+}
+
+.form-group input {
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+.btn--2 {
+    padding: .5rem 2rem;
+    display: inline-block;
+    margin: 10px 20px 0 50px;
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #661A8B;
+    outline: none;
+}
+
+#btnAddStudent {
+    margin-left: 20%;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 10px;
+    width: calc(100% - 20px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 5px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #E8F0FE;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.container-middle .btn--2{
+    margin-top: 0;
+}
+
+form button:last-child {
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+form .form-group.invalid {
+    position: relative;
+}
+
+form .form-group.invalid input{
+    border: 1px solid red;
+    outline: none;
+}
+
+form .form-group.invalid span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    position: absolute;
+    bottom: -1.2rem;
+    right: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 0 2rem;
+    margin: 0;
+    color: #E8F0FE;
+    background: #12caa5;
+}
+
+form .form-group.invalid span::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid #12caa5;
+}

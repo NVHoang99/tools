@@ -1,0 +1,57 @@
+/*=========== HEADER ==============*/
+.header {
+    min-height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 7rem;
+    height: 7rem;
+}
+
+.header__logo img {
+    width: 100%;
+}
+
+.header__nav .header__list{
+ list-style: none;
+}
+
+.header__nav .header__list .header__item {
+    display: inline-block;
+    padding: 1rem 1rem;
+}
+
+.header__nav .header__list .header__item .header__link {
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+/*=========== MAIN ==============*/
+.main {
+    text-align: center;
+    height: calc(100% - 7rem - 5rem);
+}
+
+.main .container {
+    width: 30rem;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*=========== FOOTER ==============*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 5rem;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 2rem;
+    color: #661A8B;
+}
